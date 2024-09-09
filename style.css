@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --color-main-blue: hsl(213, 62%, 22%);
+  --color-main-orange: hsl(36, 100%, 48%);
+  --color-main-brown: hsl(39, 24%, 37%);
+  --color-main-black: hsl(0, 0%, 0%);
+  --color-main-gray: hsl(0, 0%, 65%);
+  --color-main-white: hsl(0, 0%, 93%);
+  --color-facebook-blue: hsl(221, 44%, 41%);
+  --color-instagram-pink: hsl(326, 57%, 48%);
+}
+
+body {
+  background-color: var(--color-main-white);
+}
+
+nav {
+  width: 100%;
+  padding: 1.6rem 4.0rem;
+  border-bottom: 1px solid var(--color-main-blue);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 200px;
+  height: 80px;
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 5.6rem;
+  list-style: none;
+}
+
+nav .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  list-style: none;
+}
+
+.login p {
+  font-weight: 700;
+  color: var(--color-main-blue);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-main-blue);
+  font-size: 1.6rem;
+  line-height: 160%;
+  letter-spacing: .1rem;
+
+  transition: color 0.5 ease;
+}
+
+nav a:hover {
+  color: var(--color-main-orange);
+
+}
+
+footer {
+  width: 100%;
+  background-color: var(--color-main-blue);
+  color: var(--color-main-white);
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+footer p {
+  font-size: 1.6rem;
+  line-height: 160%;
+  letter-spacing: .1rem;
+}
+
+footer .redes-sociais {
+  display: flex;
+  gap: .8rem;
+}
+
+footer .facebook-icon svg {
+  fill: var(--color-main-gray);
+  transition: fill 0.5s ease;
+}
+
+footer .facebook-icon:hover svg {
+  fill: var(--color-facebook-blue);
+}
+
+footer .instagram-icon svg {
+  fill: var(--color-main-gray);
+  transition: fill 0.5s ease;
+}
+
+footer .instagram-icon:hover svg {
+  fill: var(--color-instagram-pink);
+}
