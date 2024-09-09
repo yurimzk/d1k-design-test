@@ -21,6 +21,8 @@ body {
   background-color: var(--color-main-white);
 }
 
+/* Navbar */
+
 nav {
   width: 100%;
   padding: 1.6rem 4.0rem;
@@ -70,6 +72,29 @@ nav a:hover {
 
 }
 
+/* Main */
+
+main {
+  margin-top: 2.4rem;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 4.0rem;
+  color: var(--color-main-blue);
+  line-height: 100%;
+
+}
+
+main h2 {
+  margin-top: 1.6rem;
+  font-size: 2.0rem;
+  color: var(--color-main-black);
+  line-height: 100%;
+}
+
+/* Footer */
+
 footer {
   width: 100%;
   background-color: var(--color-main-blue);
@@ -80,6 +105,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
+  margin-top: 2.0rem;
 }
 
 footer p {
