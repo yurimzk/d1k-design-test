@@ -40,7 +40,7 @@ nav img {
 nav ul {
   display: flex;
   align-items: center;
-  gap: 5.6rem;
+  gap: 6.4rem;
   list-style: none;
 }
 
@@ -48,7 +48,7 @@ nav .login {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .8rem;
+  gap: 1.6rem;
   list-style: none;
 }
 
@@ -60,7 +60,8 @@ nav .login {
 nav a {
   text-decoration: none;
   color: var(--color-main-blue);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   line-height: 160%;
   letter-spacing: .1rem;
 
@@ -91,6 +92,10 @@ main h2 {
   font-size: 2.0rem;
   color: var(--color-main-black);
   line-height: 100%;
+}
+
+#hero-banner {
+
 }
 
 /* Footer */
