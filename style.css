@@ -19,6 +19,7 @@
 
 body {
   background-color: var(--color-main-white);
+  height: 100vh;
 }
 
 /* Navbar */
@@ -95,7 +96,7 @@ main h2 {
 }
 
 #hero-banner {
-
+  margin-top: 90rem;
 }
 
 /* Footer */
@@ -114,14 +115,18 @@ footer {
 }
 
 footer p {
+  text-align: center;
   font-size: 1.6rem;
   line-height: 160%;
   letter-spacing: .1rem;
 }
 
-footer .redes-sociais {
+footer .redes-sociais-links {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: .8rem;
+  margin: .8rem 0;
 }
 
 footer .facebook-icon svg {
